@@ -1,0 +1,45 @@
+.chat {
+  display: flex;
+  flex-grow: 1;
+  padding: 16px;
+  flex-direction: column;
+}
+
+.chat-header {
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.chat-header h1 {
+  font-size: 24px;
+}
+
+.chat-header i {
+  font-size: 20px;
+}
+
+.messages {
+  flex-grow: 1;
+  padding: 16px 0;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+}
+
+.message img {
+  border-radius: 4px;
+  width: 40px;
+  margin-right: 16px;
+}
+
+.message .message-info p:first-of-type {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.message .message-info p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,38 @@
+.chat {
+  flex-grow: 1;
+  padding: 16px;
+}
+
+.chat-section {
+  margin-top: 24px;
+}
+
+.chat-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chat-section-header h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+}
+
+.channel.active span {
+  opacity: 1;
+}
+
+.channel i {
+  margin-right: 4px;
+  font-size: 14px;
+  opacity: .5;
+}
+
+.channel.active i {
+  opacity: 1;
+}
